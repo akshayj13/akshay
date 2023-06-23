@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            transition: 3s;
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+            background-color: gray;
+        }
+        #translatediv:hover{
+            -webkit-transform: translate(100px,100px);
+            -moz-transform: translate(100px,100px);
+            -ms-transform: translate(100px,100px);
+            -o-transform: translate(100px,100px);
+            transform: translate(100px,100px);
+            background-color: blue;
+            color: brown;
+        }
+        #rotatediv:hover{
+            webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);           
+            transform: rotate(360deg);
+            background-color: blue;
+            color: brown;
+        }
+        #skewdiv:hover{
+            webkit-transform: skew(45deg);
+            -moz-transform: skew(45deg);
+            -ms-transform: skew(45deg);
+            -o-transform: skew(45deg);           
+            transform: skew(45deg);
+            background-color: blue;
+            color: brown;
+        }
+        #rotate3ddiv:hover{
+            webkit-transform: rotate3d(1,1,0,360deg);
+            -moz-transform: rotate3d(1,1,0,360deg);
+            -ms-transform: rotate3d(1,1,0,360deg);
+            -o-transform: rotate3d(1,1,0,360deg);
+            transform: rotate3d(1,1,0,360deg);
+            background-color: blue;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="translatediv">translate</div><hr>
+    <div id="rotatediv">rotate</div><hr>
+    <div id="rotate3ddiv">rotate 3d</div><hr>
+    <div id="skewdiv">skew</div><hr>
+    <div id="scalediv">scale</div><hr>
+    <div id="opacitydiv">opacity</div><hr>
+    <div id="RCBAdiv">RCBA</div><hr>
+    <div id="box shadowdiv">box shadow</div><hr>
+    
+</bodAy>
+</html>
